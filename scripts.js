@@ -31,7 +31,6 @@
 
             var userId = arrayOfTodos[i].userId;
             var li = document.createElement('li');
-
             ol.appendChild(li);
 
             var id = arrayOfTodos[i].id;
@@ -45,7 +44,6 @@
 
             var completed = arrayOfTodos[i].userId;
             var li = document.createElement('li');
-
             ol.appendChild(li);
         }
     }
