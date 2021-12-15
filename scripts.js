@@ -31,12 +31,11 @@
 
             var userId = arrayOfTodos[i].userId;
             var li = document.createElement('li');
-            li.appendChild(document.createTextNode(userId));
+
             ol.appendChild(li);
 
             var id = arrayOfTodos[i].id;
             var li = document.createElement('li');
-            li.appendChild(document.createTextNode(id));
             ol.appendChild(li);
 
             var title = arrayOfTodos[i].title;
@@ -46,7 +45,7 @@
 
             var completed = arrayOfTodos[i].userId;
             var li = document.createElement('li');
-            li.appendChild(document.createTextNode(completed));
+
             ol.appendChild(li);
         }
     }
