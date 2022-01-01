@@ -10,9 +10,13 @@
 <body>
     <button onclick="fetchTodos()">Fetch Todos</button>
     <button onclick="logTodos()">Log Todos</button>
-    <button onclick="populateTodos()">Populate Todos</button>
+    <button onclick="populateTodos(arrayOfTodos)">Populate Todos</button>
+    <input id="user-input" type="text" placeholder="UserId" min="0" max="10" oninput="idInput(this.value)">
+    <button type="button" onclick="showCurrentUser()"> Show Current User</button>
+    <button type="button" onclick="clearAll()"> Clear</button>
+    <button type="button" onclick="showComplete()"> Show Complete</button>
+    <button type="button" onclick="showIncomplete()">Show Incomplete</button>
     <ol id="todo-list">
-    <!-- LIs will go here -->
     </ol>
 </body>
 </html>
